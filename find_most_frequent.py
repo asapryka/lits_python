@@ -12,11 +12,9 @@ def find_most_frequent(text):
             result_list.append(item)
 
     result_list = [element.lower() for element in result_list];
-
+    result_list.sort()
     print(result_list)
     return result_list
-
-#TODO: make result sorted
 
 find_most_frequent("Hello,Hello, my dear!")
 
