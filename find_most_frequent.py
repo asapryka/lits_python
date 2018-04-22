@@ -16,8 +16,10 @@ def find_most_frequent(text):
     print(result_list)
     return result_list
 
-# find_most_frequent("Hello,Hello, my dear!")
+#TODO: make result sorted
 
-# find_most_frequent("to understand recursion you need first to understand recursion...")
+find_most_frequent("Hello,Hello, my dear!")
+
+find_most_frequent("to understand recursion you need first to understand recursion...")
 
 find_most_frequent("Mom! Mom!Are you sleeping?!!!")
