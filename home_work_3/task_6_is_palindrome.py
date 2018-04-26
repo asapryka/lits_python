@@ -1,4 +1,4 @@
-def isPalindrome(phrase):
+def is_palindrome(phrase):
     items_to_replace = {' ': ''}
 
     for i, j in items_to_replace.items():
@@ -12,7 +12,7 @@ def isPalindrome(phrase):
     return False
 
 phrase = "0"
-answer = isPalindrome(phrase)
+answer = is_palindrome(phrase)
 
 if (answer):
     print("Yes")
@@ -20,7 +20,7 @@ else:
     print("No")
 
 phrase = "puppy"
-answer = isPalindrome(phrase)
+answer = is_palindrome(phrase)
 
 if (answer):
     print("Yes")
@@ -28,7 +28,7 @@ else:
     print("No")
 
 phrase = "mystring1Gni rts ym"
-answer = isPalindrome(phrase)
+answer = is_palindrome(phrase)
 
 if (answer):
     print("Yes")

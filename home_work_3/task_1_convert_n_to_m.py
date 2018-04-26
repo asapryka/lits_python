@@ -1,5 +1,7 @@
+import string
+
 def convert_n_to_m(x, n, m):
-    alphabet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    alphabet = string.digits + string.ascii_uppercase
     result = []
 
     while n < 1 or m > 36:
